@@ -1,0 +1,15 @@
+D3.js Bubble Chart: Twitter Abuse
+
+This code relates to a post showing tweet rates around the controversial rape trial of UK footballer Ched Evans.
+
+It uses d3 and coffeescript.
+
+The Force Layout component of D3.js is used here to provide most of the functionality behind the transitions, animations, and collisions in the visualization.
+Here, however, we forgo the use of edges and instead use it just to move around the nodes of a graph.
+
+The bubbles are color coded based on tweet amount. The main part of the code is written in CoffeeScript. Everything is packaged up in a nice BubbleChart class.
+
+The Original post is here: http://bit.ly/LPxsPa
+
+This code is based on James vallandingham's NYT Bubble Charts:
+https://github.com/vlandham/vlandham.github.com/blob/master/vis/gates/coffee/vis.coffee
